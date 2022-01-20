@@ -5,7 +5,6 @@
 function setup() {
     createCanvas(800, 600);
     var black = (0, 0, 0)
-    var tan = (224, 192, 103)
     background(black)
     stroke(110, 48, 15)
     strokeWeight(4)
