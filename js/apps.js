@@ -4,15 +4,16 @@
 //Project Name Hourglass
 function setup() {
     createCanvas(800, 600);
-    var grey = (130, 128, 126)
-    background(grey)
+    var black = (0, 0, 0)
+    var tan = (224, 192, 103)
+    background(black)
     stroke(110, 48, 15)
     strokeWeight(4)
-    fill(grey)
+    fill(black)
     rect(300, 175, 200, 400);
     fill(224, 192, 103)
     triangle(400, 375, 300, 175, 500, 175)
-    fill(grey)
+    fill(black)
     triangle(500, 575, 300, 575, 400, 375)
     stroke(224, 192, 103)
     line(400, 378, 400, 571)
