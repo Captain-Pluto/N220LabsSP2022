@@ -1,8 +1,14 @@
+//Jacob Shultz 
+//1/24/21 
+//N220 
+//Project Bouncing Ball
+
+//Create variables
 var radius = 40;
 var x = 110;
 var speed = 0.5;
 var direction = 1;
-
+//Create Canvas
 function setup() {
     createCanvas(240, 120);
     ellipseMode(radius);
