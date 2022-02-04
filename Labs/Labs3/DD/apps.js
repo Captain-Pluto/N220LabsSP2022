@@ -1,11 +1,13 @@
+let x = 0;
 function setup() {
     createCanvas(600, 400);
-    background(46, 46, 45)
 }
 function draw() {
-    drawFactory(10, 40)
-
+    drawFactory(mouseX, mouseY);
+    drawFactory(mouseX - 30, mouseY - 30);
+    drawFactory(mouseX + 30, mouseX + 30);
 }
+
 function drawFactory(x, y) {
 
     strokeWeight(2)
